@@ -13,7 +13,7 @@ public class LinearSearchArray {
             if(x[i]==item){
                 return i;//returns index value where item is present...
             }
-            
+            //if we write else here , we get it wrong as when checking for 0 index if value is not present -1 will be returned ...
         }
            return -1;
     }
