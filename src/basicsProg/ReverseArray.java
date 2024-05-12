@@ -7,7 +7,7 @@ public class ReverseArray {
          int [] x={1,2,3,4,5};
             rev(x);
             for(int i=0;i<x.length;i++){
-                System.out.print+(x[i]+" ");
+                System.out.print(x[i]+" ");
             }
     }
     public static void rev(int [] x) {
